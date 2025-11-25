@@ -1,0 +1,34 @@
+POST http://localhost:8000/api/matieres/
+Content-Type: application/json
+
+{
+    "nom": "Maths",
+    "coef": 4
+}
+
+###
+
+GET http://localhost:8000/api/matieres/
+
+###
+
+DELETE http://localhost:8000/api/matieres/a602c295-2dd0-42c4-8946-d906c2e0e77c/
+
+###
+
+PUT http://localhost:8000/api/matieres/e2b53e51-ee1f-411c-83c5-17d0c71fd2cd/
+Content-Type: application/json
+
+{
+    "nom": "Fraçais",
+    "coef": 3
+}
+
+###
+
+PATCH http://localhost:8000/api/matieres/e2b53e51-ee1f-411c-83c5-17d0c71fd2cd/
+Content-Type: application/json
+
+{
+    "coef": 4
+}
